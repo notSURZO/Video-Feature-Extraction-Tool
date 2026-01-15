@@ -68,11 +68,13 @@ def main(src_path, output_json, hist_diff_threshold = 0.8, ocr_confidence_thresh
 
     ```hist_diff_threshold``` - How much sensitivity you want for histogram difference
 
-    ```ocr_confidence_threshold``` - Confidence above which texts get detected; 
+    ```ocr_confidence_threshold``` - Confidence above which texts get detected 
 
     ```word_count``` - How many of OCR the detected words you want to show
 
-    ```cut_frames_threshold``` -> For how many frames a cut is to be considered
+    ```cut_frames_threshold``` - For how many frames a cut is to be considered
+
+    ```yolo_confidence_threshold``` - Confidence above which YOLO classifies
 
 ```
 if __name__ == "__main__":

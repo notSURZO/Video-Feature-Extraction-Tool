@@ -45,7 +45,7 @@ import json
 
 3. Run the main function's definition block. 
 
-    Set ```gpu = false``` in the ``` ocr = easyocr.Reader(...)``` if you don't have a dedicated gpu.
+    Set ```gpu = false``` in the ``` ocr = easyocr.Reader(...)``` if you don't have a dedicated gpu (gpu is recommended). 
 
 
 ```
